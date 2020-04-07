@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\_GITLAB REPOSITORY\\APBD\\cw3\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "H:\\_GITLAB REPOSITORY\\APBD\\cw4\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "H:\\_GITLAB REPOSITORY\\APBD\\cw3\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "H:\\_GITLAB REPOSITORY\\APBD\\cw4\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\_GITLAB REPOSITORY\\APBD\\cw3\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "H:\\_GITLAB REPOSITORY\\APBD\\cw4\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "H:\\_GITLAB REPOSITORY\\APBD\\cw3\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "H:\\_GITLAB REPOSITORY\\APBD\\cw4\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Matoosh\\.nuget\\packages\\",
-        "outputPath": "H:\\_GITLAB REPOSITORY\\APBD\\cw3\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "H:\\_GITLAB REPOSITORY\\APBD\\cw4\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matoosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
